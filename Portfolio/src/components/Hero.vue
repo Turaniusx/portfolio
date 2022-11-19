@@ -9,13 +9,17 @@
         </h2>
         <p class="hero__text">
           Based in Macedonia, I'm a front-end developer <br />
-          passionate about building accessible web apps <br />
+          passionate about building web apps <br />
           that users love.
         </p>
         <a href="#" class="hero__contact">Contact me</a>
       </div>
       <div class="hero__image">
-        <img src="@/assets/images/headshot.png" alt="" class="hero__headshot" />
+        <img
+          src="@/assets/images/headshot2.png"
+          alt=""
+          class="hero__headshot"
+        />
       </div>
     </section>
   </main>

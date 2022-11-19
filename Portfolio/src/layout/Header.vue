@@ -6,14 +6,32 @@
       </h1>
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li>
-            <a href="/" class="header__nav-item">Home</a>
+          <li class="header__nav-item">
+            <a href="/">
+              <img
+                class="nav__img"
+                src="@/assets/images/github-img.svg"
+                alt=""
+              />
+            </a>
           </li>
-          <li>
-            <a href="/" class="header__nav-item">About</a>
+          <li class="header__nav-item">
+            <a href="/">
+              <img
+                class="nav__img"
+                src="@/assets/images/linkedin-img2.svg"
+                alt=""
+              />
+            </a>
           </li>
-          <li>
-            <a href="/" class="header__nav-item">Contact</a>
+          <li class="header__nav-item">
+            <a href="/">
+              <img
+                class="nav__img"
+                src="@/assets/images/twitter-img.svg"
+                alt=""
+              />
+            </a>
           </li>
         </ul>
       </nav>
