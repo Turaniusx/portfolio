@@ -1,0 +1,72 @@
+.section {
+  color: $light;
+  display: flex;
+  margin: auto;
+  max-width: 900px;
+  padding: 15px;
+  height: 600px;
+  position: relative;
+  border-bottom: 1px solid darken($light, 25%);
+}
+.hero__logo {
+  position: absolute;
+  z-index: -4;
+  opacity: 0.04;
+  object-fit: cover;
+  overflow: hidden;
+  transform: translateX(-101px);
+  width: 500px;
+  top: 50px;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 5;
+  position: relative;
+}
+.hero__title {
+  font-size: 58px;
+  margin: 4rem 0 1.8rem 0;
+}
+.hero__underline {
+  border-bottom: 5px solid $accent;
+}
+.hero__text {
+  color: darken($light, 25%);
+  margin-bottom: 2rem;
+}
+.hero__contact {
+  color: $light;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  line-height: 3;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  border-bottom: 2px solid $accent;
+  ::first-letter {
+    letter-spacing: 1;
+  }
+  transition: all 150ms linear;
+  &:hover {
+    color: lighten($light, 20%);
+    border-bottom-color: lighten($accent, 10%);
+  }
+}
+.hero__image {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(0deg, $gray 30%, $dark 100%);
+}
+.hero__headshot {
+  width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(10px 9px 10px black);
+}
